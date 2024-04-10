@@ -1,14 +1,18 @@
 <script>
-import AppJumbotron from './mainComponents/AppJumbotron.vue'
-import SectionTitle from './mainComponents/SectionTitle.vue';   
+import AppJumbotron from './mainComponents/AppJumbotron.vue';
+import SectionTitle from './mainComponents/SectionTitle.vue';
+import SpecialistsContent from './mainComponents/SpecialistsContent.vue';
+import AvadaStats from './mainComponents/AvadaStats.vue';
 
 export default {
-  name: 'AppMain',
-  components: {
-    AppJumbotron,
-    SectionTitle,
-  },
-  
+    name: 'AppMain',
+    components: {
+        AppJumbotron,
+        SectionTitle,
+        SpecialistsContent,
+        AvadaStats,
+    },
+
 }
 </script>
 
@@ -16,19 +20,20 @@ export default {
 
     <AppJumbotron />
 
-    <SectionTitle title="Specialists In Modern Constuction"/>
+    <SectionTitle title="Specialists In Modern Constuction" />
 
-    <SectionTitle title="Explore Recent Work"/>
+    <SpecialistsContent />
 
-    <SectionTitle title="Our Core Values"/>
+    <AvadaStats />
 
-    <SectionTitle title="Latest News"/>
+    <SectionTitle title="Explore Recent Work" />
 
-    <SectionTitle title="Trusted Partners"/>
+    <SectionTitle title="Our Core Values" />
 
+    <SectionTitle title="Latest News" />
+
+    <SectionTitle title="Trusted Partners" />
 
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
