@@ -1,13 +1,13 @@
 <script>
 export default {
-    name: 'Appheader',
+    name: 'AppHeader',
 }
 </script>
 
 <template>
     <header>
         <div class="logo">
-            <img src="../../public/img/construction_logo.png" alt="avada logo">
+            <img src="../../public/img/header_logo.png" alt="avada logo">
         </div>
 
         <div class="nav">
@@ -46,10 +46,14 @@ header {
             color: #333333;
         }
 
+        a:hover {
+            color: #fed03d;
+        }
+
         a:hover::before {
             content: '';
             position: absolute;
-            top: 60px;
+            top: 69px;
             left: 50%;
             transform: translateX(-50%);
             border-width: 6px 6px 0 6px;
@@ -62,7 +66,7 @@ header {
             border: none;
             background-color: #fed03d;
             padding: 15px 25px;
-
+            color: #1f1f1f;
         }
 
         button:hover {
