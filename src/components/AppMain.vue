@@ -34,6 +34,8 @@ export default {
 
     <SectionTitle title="Trusted Partners" />
 
+    
+
 </template>
 
 <style scoped></style>
