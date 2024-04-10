@@ -29,8 +29,10 @@ export default {
     height: 428px;
     width: 1913px;
     background-image: url(../../../public/img/footer_jumbotron_background.jpg);
-    background-size: 1913px 428px;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 80%;
 
     .container {
         width: 1164px;
