@@ -7,7 +7,7 @@ export default {
 <template>
     <header>
         <div class="logo">
-            <img src="../../public/img/header_logo.png" alt="avada logo">
+            <img src="/img/header_logo.png" alt="avada logo">
         </div>
 
         <div class="nav">

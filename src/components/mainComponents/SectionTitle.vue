@@ -1,17 +1,20 @@
 <script>
 export default {
     name: 'SectionTitle',
+    props: {
+        title: String,
+    }
 }
 </script>
 
 <template>
-    <h3>Specialisists In Modern Costruction</h3>
+    <h3>{{ title }}</h3>
     <hr>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore libero ducimus eius perspiciatis corporis quis cupiditate labore nesciunt qui sapiente!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus quis eligendi ipsum maxime temporibus, cumque voluptas voluptatum quae libero iure.</p>
 </template>
 
 <style scoped>
-h3{
+h3 {
     text-align: center;
     font-size: 24px;
     font-weight: 400;
@@ -19,13 +22,13 @@ h3{
     color: #1f1f1f;
 }
 
-hr{
+hr {
     background-color: #FED03D;
     width: 200px;
     margin: 24px auto 36px;
 }
 
-p{
+p {
     width: 760px;
     text-align: center;
     color: #333333;

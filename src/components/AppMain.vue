@@ -7,14 +7,25 @@ export default {
   components: {
     AppJumbotron,
     SectionTitle,
-  }
+  },
+  
 }
 </script>
 
 <template>
 
     <AppJumbotron />
-    <SectionTitle />
+
+    <SectionTitle title="Specialists In Modern Constuction"/>
+
+    <SectionTitle title="Explore Recent Work"/>
+
+    <SectionTitle title="Our Core Values"/>
+
+    <SectionTitle title="Latest News"/>
+
+    <SectionTitle title="Trusted Partners"/>
+
 
 </template>
 
